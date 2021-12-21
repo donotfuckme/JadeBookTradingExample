@@ -1,0 +1,1 @@
+java -classpath ".\lib\jade-4.5.0.jar;.\lib\jade-misc-2.8.0.jar;.\lib\jade-test-suite-1.13.0.jar;.\lib\jade-wsdc-2.7.0.jar;.\lib\jade-xml-codec-1.11.0.jar;.\target\JadeBookTradingExample-1.0-SNAPSHOT.jar;." jade.Boot -container -host avalon.tilab.com -agents buyer:ua.nure.shliakhtin.BookBuyerAgent;seller:ua.nure.shliakhtin.BookSellerAgent
